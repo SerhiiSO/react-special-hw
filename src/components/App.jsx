@@ -1,3 +1,10 @@
-export const App = () => {
-  return <>React homework template</>;
+import PhotoSearcher from './Photosearcher/PhotoSearcher';
+const App = () => {
+  return (
+    <>
+      <PhotoSearcher />
+    </>
+  );
 };
+
+export default App;
